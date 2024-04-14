@@ -45,9 +45,9 @@ class R2Point:
         return False
 
 
-if __name__ == "__main__":
-    x = R2Point(1.0, 1.0)
-    print(type(x), x.__dict__)
-    print(x.dist(R2Point(1.0, 0.0)))
-    a, b, c = R2Point(0.0, 0.0), R2Point(1.0, 0.0), R2Point(1.0, 1.0)
-    print(R2Point.area(a, c, b))
+# if __name__ == "__main__":
+#     x = R2Point(1.0, 1.0)
+#     print(type(x), x.__dict__)
+#     print(x.dist(R2Point(1.0, 0.0)))
+#     a, b, c = R2Point(0.0, 0.0), R2Point(1.0, 0.0), R2Point(1.0, 1.0)
+#     print(R2Point.area(a, c, b))

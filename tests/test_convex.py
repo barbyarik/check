@@ -84,10 +84,6 @@ class TestSegment:
     def test_area(self):
         assert self.f.area() == 0.0
 
-    # При добавлении точки двуугольник может не измениться
-    def test_add1(self):
-        assert self.f.add(R2Point(0.5, 0.0)) is self.f
-
     # Он не изменяется в том случае, когда добавляемая точка совпадает
     # с одним из концов отрезка
     def test_add1(self):

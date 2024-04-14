@@ -37,11 +37,11 @@ class Deq:
         return self.array[0]
 
 
-if __name__ == "__main__":
-    s = Deq()
-    print(s.__dict__)
-    s.push_first(1)
-    s.push_first(2)
-    print(s.__dict__)
-    a = s.pop_last()
-    print(f"a={a}, array={s.__dict__}")
+# if __name__ == "__main__":
+#     s = Deq()
+#     print(s.__dict__)
+#     s.push_first(1)
+#     s.push_first(2)
+#     print(s.__dict__)
+#     a = s.pop_last()
+#     print(f"a={a}, array={s.__dict__}")
